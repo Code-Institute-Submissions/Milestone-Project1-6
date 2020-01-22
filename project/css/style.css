@@ -1,12 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Niconne:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Colors*/
+
+.bg-color-point{
+    background-color: #006622;
+}
+
+header{
+    margin:0;
+}
+
+.heading{
+    text-align: center;
+}
 .logo {
-    background: url("../images/logoeco.png");
+    background: url("../images/logof.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 160px;
+    background-size:80%;
+    min-height: 200px;
+}
+
+.coName{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size:50px;
+    color:#fff;
+    margin-top:30px;  
+}
+.point{
+    font-family: "Niconne", sans-serif;
+    color: #cccc00;
+    margin-bottom: 30px;
 }
 
 
