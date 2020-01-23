@@ -3,9 +3,9 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-point{
-    background-color: #006622;
+    background-color:#0099e6;
 }
-
+/*------------------------------Header-----------*/
 header{
     margin:0;
 }
@@ -14,7 +14,7 @@ header{
     text-align: center;
 }
 .logo {
-    background: url("../images/logof.png");
+    background: url("../images/logolight.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -30,9 +30,33 @@ header{
 }
 .point{
     font-family: "Niconne", sans-serif;
-    color: #cccc00;
+    color: #0d0d0d;
     margin-bottom: 30px;
 }
 
+.list-inline-item:not(:last-child){
+    margin:0;
+    padding: 0;
 
+}
+.menucontainer{
+    font-size:0;
+}
+#nav li{
+    font-size:24px;
+    padding:0;
+    text-align: center;
+}
+
+#nav{
+    background-color:#009900;
+}
+
+#nav span{
+    color:aliceblue;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
 
