@@ -6,11 +6,11 @@
     background-color:#0099e6;
 }
 /*------------------------------Header-----------*/
-header{
+/*header{
     margin:0px;
     padding:0px;
     background-color: #FFF;
-}
+}*/
 
 .heading{
     text-align: center;
@@ -18,23 +18,23 @@ header{
 }
 .logo-head{
     margin-top:50px;
-    margin-left:10px;
+    margin-;
+    
 }
 .logo {
     background: url("../images/logolight.png");
-    background-position: center;
+    background-position: center;    
     background-repeat: no-repeat;
     background-size:75%;
-    min-height:250px;
+    min-height:100px;
     margin:0;
-    padding:0;
-    width:cover;
+    padding-left:20px;
+    width:100%;
 }
 .h1, h1 {
     font-size: 2.5rem;
     font-family: exo;
-    background-color: beige;
-    color: green;
+    color: rgb(8, 139, 8);
 }
 
 /*#coName{
@@ -50,29 +50,32 @@ header{
     margin-bottom: 30px;
 }
 
-.list-inline-item:not(:last-child){
+/*.list-inline-item:not(:last-child){
     margin:0;
     padding: 0;
 
 }
 .menucontainer{
     font-size:0;
-}
-#nav li{
+}*/
+/*------------navigation bar---------------*/
+/*.navbar li{
     font-size:24px;
     padding:0;
     text-align: center;
     text-decoration: none;
     margin:0;
-}
+    list-style: none;
+}*/
 
-#nav{
+.navbar{
     background-color:#009900;
-    margin:0;
+    margin-bottom:20px;
     height:50px;
+    
 }
 
-#nav span{
+/*.navbar span{
     color:aliceblue;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
@@ -80,14 +83,39 @@ header{
     text-decoration: none;
 }
 /*-------------------Carusell--------------------*/
-.carousel-item{
-    height:400px;
+article.container-fluid.image-container{
+    padding:0;
+}
+.image-container{
+    margin-top:20px;
+}
+.carousel-item img{
+    height:480px;
 } 
 
 /*--------------Features--------------*/
-.description{
-    background-color: #ff531a;
+
+.container-description{
+    background-color:#ff5233;
+    margin-top:20px;
 }
+.feature{
+    text-align: center;
+    color:#fafafa;
+    padding-bottom:40px;
+    font-family:"oswald",sans-serif;
+}
+.feature i{
+    color:chartreuse;
+    font-size:50px;
+    padding:20px;
+    display:block;
+}
+.feature h3{
+    color:cyan;
+    font-family:"Exo", sans-serif;
+}
+
 
 
 /*-------------------iframe--------------------*/
@@ -112,16 +140,35 @@ footer{
     background-repeat: no-repeat;
     margin:0;
     text-align: center;
-    
 }
 .social-link{
     text-align: center;
+    margin-bottom:30px;
 }
 
 .social-link i{
     font-size:200%;
-    margin-left:10px;
-    padding: 20px;
+    margin:0;
+    padding:40px;
     color:#00ff00;
+}
 
+
+
+@media only screen and (max-width: 600px) {
+  .social-link i{
+    margin:0;
+    padding:0;
+  }
+}
+
+/*--------------About Jute------------------*/
+.plant-container img{
+    height:480px;
+    margin-top:20px;
+    padding-top:40px;
+    margin-bottom: 20px;
+}
+.plant-container{
+    padding:0;
 }

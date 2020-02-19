@@ -11,32 +11,28 @@
 </head>
 <body>
     <header>
-            <div class="row no-gutters">
-                    <div class="col">
-                        <ul id="nav" class="nav fixed-top list-inline menucontainer">
-                            <li class="active col-6 col-sm-3  list-inline-item">
-                                <a href="#"><span>Home</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3  list-inline-item">
-                                <a href="#"><span>About us</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3  list-inline-item">
-                                <a href="#"><span>Products</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 list-inline-item">
-                                <a href="#"><span>Contact us</span></a>
-                            </li>
-                        </ul>
-                    </div>
+    <nav class="navbar navbar-dark bg-success navbar-expand-sm fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="aboutJute.html">About Jute</a></li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="products.html">Produtcs</a></li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="#">Contact Us</a></li>
+            </ul>
             </div>
+    </nav>
+            
             <div class="row logo-head no-gutters">
-                <a class="d-none d-md-block col-md-4 col-lg-2 logo" src="project/images/logolight.png"></a>
+                <a class="d-none d-md-block col-md-4 col-lg-2 logo" href="index.html"></a>
                 <div class="col-md-8">
                     <div class="row no-gutters bg-color-point">
                         <div class="col heading">
                             <h1 id="coName">EcoB</h1>
                             <h2 class="point">Biodegradable eco friendly new bag!!</h2>
-                            <button class="btn btn-primary"> Order Now!</button>
+                            <button class="btn btn-success btn-lg"> Order Now!</button>
                         </div>
                     </div>
                 
@@ -46,7 +42,7 @@
     </header>
 
         <!------------Images Carousel----------->
-    <article class="container-fluid">
+    <article class="container-fluid image-container">
         <section class="mycarousel">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -58,32 +54,19 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                     <img class="d-block w-100" src="project/images/slide1.jpg" alt="First slide">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="upperclass">Jute Bag</h5>
-                                <p>Bags made from Jute Fibre</p>
-                            </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="project/images/slide2.jpg" alt="Second slide">
-                        <div class="carousel-caption d-none d-md-block">
-                                <h5 class="upperclass">Jute Sheets</h5>
-                                <p> Beautifully colored prodects from Jute Fibre</p>
-                            </div>
                             
                     </div>
                     <div class="carousel-item">
+                        <img class="d-block w-100" src="project/images/slide2.png" alt="Second slide">
+                         
+                    </div>
+                    <div class="carousel-item">
                     <img class="d-block w-100" src="project/images/slide3.jpg" alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                                <h5 class="upperclass">Jute Fibre</h5>
-                                <p>extracted dried fibre from Jute plant</p>
-                            </div>
+                        
                     </div>
                     <div class="carousel-item">
                     <img class="d-block w-100 img-fluid" src="project/images/slide4.jpg" alt="Fourth slide">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="upperclass">Jute plant</h5>
-                                <p>A farmer is harvesting the plant</p>
-                            </div>
+                            
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -97,24 +80,24 @@
             </div>
         </section>
         <!-----------Features-------------->
-        <section class=" description">
+        <section class=" container-fluid container-description">
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div class="feature">
-                        <h3>What is Jute?</h3>
-                        <p>jute</p>
+                        <h3><i class="fa fa-question-circle"></i> What is Jute?</h3>
+                        <p>We all have used gunny sacks, rustic looking bags, curtains and several other pieces of furniture or accessory, that have a lattice-like weave and a coarse texture. Chances are that these products were made of jute. But how many of you know what is jute? It is a natural fibre derived from plants. The long, soft and shiny fibres are spun into coarse, strong threads that are then put to a multitude of uses. Jute is second to cotton in terms of production. It’s also referred to as the ‘golden fibre’ due to its colour and cost-effectiveness.</p>
+                    <p><a class="btn btn-light btn-sm" href="">Read more</a></p></div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="feature">
+                        <h3><i class="fa fa-pagelines"></i> What is jute made of?</h3>
+                        <p>Jute is obtained from the plants Corchorus olitorius and Corchorus capsularis. These plants are native to the Indian subcontinent and are grown throughout the year. The jute fibres are mainly concentrated near the woody, central parts of the stalk. They are composed of cellulose and lignin. There are two kinds of jute that are produced today: White jute and brown jute, which is stronger, softer, and silkier.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="feature">
-                        <h3>What is Jute?</h3>
-                        <p>eddod</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="feature">
-                        <h3>What is Jute?</h3>
-                        <p>eddod</p>
+                        <h3><i class="fa fa-leaf"></i> What is jute used for?</h3>
+                        <p> Subsequently, it was used for fishing, arms and construction industry. In the modern times, this versatile fibre is used for making household items such as carpets, sacks, rugs, coverlets for chairs etc. The more diversified use of jute includes products such as espadrilles that lend an element of glam to this otherwise humble fibre.</p>
                     </div>
                  </div>
             </div>
@@ -137,7 +120,8 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
-                <h5>Adress</h5>
+                <h5 class="address">Adress</h5>
+                <p>19 rue solferino<br>Floor12  75002 <br> Paris</p>
             </div>
             <div class=" col-sm-8 ">
                 <h5>Social</h5>
@@ -170,7 +154,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
