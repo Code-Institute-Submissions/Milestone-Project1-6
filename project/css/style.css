@@ -164,11 +164,47 @@ footer{
 
 /*--------------About Jute------------------*/
 .plant-container img{
-    height:480px;
+    height:600px;
     margin-top:20px;
     padding-top:40px;
     margin-bottom: 20px;
+    position:relative;
+
+   /* animation-name: plant-zoom;
+    animation-duration:5s;
+    animation-fill-mode: forward;*/
 }
 .plant-container{
     padding:0;
+}
+/*#plant-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+}
+@keyframes plant-zoom{
+    from{
+            transform: scale(1);
+    }
+    to{
+            transform: scale(1.1);
+    }
+}*/
+#caption, #caption h2{
+    color:#fafafa;
+
+}
+#caption{
+    font-size:120%;
+    font-family:'Niconne',sans-serif;
+    
+
+    width:300px;
+    height:200px;
+
+    background-color: rgba(241, 139, 107, .7);
+
+    bottom:30px;
+    right:150px;
+    position:absolute;
 }
