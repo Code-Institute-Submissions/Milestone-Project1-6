@@ -211,27 +211,7 @@ footer{
 
 
 /*-------------------iframe--------------------*/
-/*.wrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 *
-    padding-top: 25px;
-    height: 0;
-    margin-bottom:0;
-}
-.wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 75%;
-}*/
-/*.video-container{
-    text-align: center;
-    color:	#1a0000;
-    font-family: 'Exo',sans-serif;
-    background-size: cover;
-    margin-top:50px;
-}*/
+
 .video-container h5{
     font-family: Exo;
     text-transform: uppercase;
@@ -262,7 +242,7 @@ footer{
     margin:0 ;
 }
 .pro-text i{
-    color:#d9d9d9;
+    color:#fafafa;
     font-size:130%;
 }
 

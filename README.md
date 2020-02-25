@@ -9,10 +9,10 @@ for thousand years in Indian subcontinent. So in my opinion it is more relvant t
  ## UX
 Expected users of the website specially the companies and organisation or individuals who want a more cleaner world and a plastic free world.
 **User Stories**
-* Any one can buy and order our products from one single quantity to a large quantity.
-* Anyone with a curisity of jute can learn about this new type of material.
-* Fashion personells can promote an eco friendly product.
-* Environment activists can use a product which might support their cause.
+1. Any one can buy and order our products from one single quantity to a large quantity.
+1. Anyone with a curisity of jute can learn about this new type of material.
+1. Fashion personells can promote an eco friendly product.
+1. Environment activists can use a product which might support their cause.
 
 ## Features
 users can view some images of our products in the front page and a little infomation about the fibre.
@@ -22,3 +22,30 @@ Contact page is there to recieve user's feedbacks,suggestions and complaints to 
 
 **Logo**
 ![ECOB logo](project/images/logolight.png)
+The logo made by friend Sufal(Mechanical Engineer living in Germany ) by photoshop.
+
+##Technologies Used##
+*HTML
+HTML for strucutre
+*CSS
+CSS for Styling
+*JavaScript
+JavaScript for application controller
+*JQuery
+The project uses JQuery to simplify DOM manipulation.
+*Google Chrome
+Used for browser and dev tools
+*Mozilla Firefox
+Used for browser and dev tools
+*Google
+Google was used for research.
+*Bootstrap
+HTML and CSS Framework from Bootstrap
+*Git
+Git used for Version Control
+*GitHub
+Repository hosted on GitHub
+*Github Pages
+Website hosted on Github Pages
+
+##Testing##
