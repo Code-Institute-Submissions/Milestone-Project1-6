@@ -20,7 +20,7 @@ in the "About Jute" section anyone cang get some ideas about Jute cultivation an
 At the Prducts page you can see our product catalogue which i have collaborated with a local company in Bangladesh and buy.
 Contact page is there to recieve user's feedbacks,suggestions and complaints to develop our service.
 
-##Technologies Used
+## Technologies Used
 **Html**
 HTML for strucutre
 **CSS**
@@ -44,4 +44,4 @@ Repository host
 **Github Page**
 Website host
 
-##Testing
+## Testing
