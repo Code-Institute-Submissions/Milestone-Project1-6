@@ -21,27 +21,27 @@ At the Prducts page you can see our product catalogue which i have collaborated 
 Contact page is there to recieve user's feedbacks,suggestions and complaints to develop our service.
 
 ##Technologies Used
-#####HTML
+**Html**
 HTML for strucutre
-#####CSS
-CSS for Styling
-#####JavaScript
-JavaScript for application controller
-#####Query
-The project uses JQuery to simplify DOM manipulation.
-#####Google Chrome
-Used for browser and dev tools
-#####Mozilla Firefox
-Used for browser and dev tools
-#####Google
-Google was used for research.
-#####Bootstrap
-HTML and CSS Framework from Bootstrap
-#####Git
-Git used for Version Control
-#####GitHub
-Repository hosted on GitHub
-#####Github Pages
-Website hosted on Github Pages.
+**CSS**
+for 
+**Bootstrap**
+Framework from Bootstrap
+**Javascript**
+JS for some modals and controller
+**Jquery**
+DOM manipulation
+**Google Chrome**
+Used for dev tools and browser
+**Mozila Firefox**
+Used for browser
+**Google**
+Used for research 
+**Git**
+For Version control
+**Github**
+Repository host
+**Github Page**
+Website host
 
 ##Testing
