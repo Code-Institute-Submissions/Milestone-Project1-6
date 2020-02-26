@@ -20,33 +20,33 @@ in the "About Jute" section anyone cang get some ideas about Jute cultivation an
 At the Prducts page you can see our product catalogue which i have collaborated with a local company in Bangladesh and buy.
 Contact page is there to recieve user's feedbacks,suggestions and complaints to develop our service.
 
-##Logo##
+####Logo
 ![ECOB logo](project/images/logolight.png).
 
 The logo made by friend Sufal(Mechanical Engineer living in Germany ) by photoshop.
 
 ##Technologies Used##
-#####HTML#####
+#####HTML
 HTML for strucutre
-#####CSS#####
+#####CSS
 CSS for Styling
-###avaScript###
+#####JavaScript
 JavaScript for application controller
-###Query###
+#####Query
 The project uses JQuery to simplify DOM manipulation.
-###Google Chrome###
+#####Google Chrome
 Used for browser and dev tools
-###Mozilla Firefox###
+#####Mozilla Firefox
 Used for browser and dev tools
-###Google###
+#####Google
 Google was used for research.
-###Bootstrap###
+#####Bootstrap
 HTML and CSS Framework from Bootstrap
-###Git###
+#####Git
 Git used for Version Control
-###GitHub###
+#####GitHub
 Repository hosted on GitHub
-###Github Pages###
+#####Github Pages
 Website hosted on Github Pages.
 
 ##Testing##
