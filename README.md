@@ -20,12 +20,7 @@ in the "About Jute" section anyone cang get some ideas about Jute cultivation an
 At the Prducts page you can see our product catalogue which i have collaborated with a local company in Bangladesh and buy.
 Contact page is there to recieve user's feedbacks,suggestions and complaints to develop our service.
 
-####Logo
-![ECOB logo](project/images/logolight.png).
-
-The logo made by friend Sufal(Mechanical Engineer living in Germany ) by photoshop.
-
-##Technologies Used##
+##Technologies Used
 #####HTML
 HTML for strucutre
 #####CSS
@@ -49,4 +44,4 @@ Repository hosted on GitHub
 #####Github Pages
 Website hosted on Github Pages.
 
-##Testing##
+##Testing
