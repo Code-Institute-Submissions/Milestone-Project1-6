@@ -79,7 +79,7 @@ article.container-fluid.image-container{
     margin-top:20px;
 }
 .feature{
-    text-align: center;
+    text-align: justify;
     color:#fafafa;
     padding-bottom:40px;
     font-family:"oswald",sans-serif;
@@ -94,8 +94,9 @@ article.container-fluid.image-container{
     color:cyan;
     font-family:"Exo", sans-serif;
 }
-
-
+.feature-text{
+    min-height:300px;
+}
 
 /*---------------------------------------------*/
 /*-------------------Footer--------------------*/
