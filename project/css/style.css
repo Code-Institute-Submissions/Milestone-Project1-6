@@ -237,7 +237,24 @@ footer{
     background-color:#c6ff1a;
     text-align: center;
 }
-/*--------------Products page-------------------*/
+
+/*------------------product pge-------------------*/
+.card{
+    margin-bottom:20px;
+    background-color: chocolate;
+}
+.card-img-top{
+    height:335px;
+}
+.card-text{
+    font-family: 'oswald', sans-serif;
+}
+.card-body{
+    min-height: 200px;
+}
+
+
+/*--------------Products page-------------------
 .pro-image img{
     width:300px;
     height: 300px;
@@ -246,7 +263,7 @@ footer{
 .pro-image{
     margin:0 auto;
     padding-bottom:10px;
-}
+
 .product-content{
     text-align: center;
     font-family: "oswald",sans-serif;
