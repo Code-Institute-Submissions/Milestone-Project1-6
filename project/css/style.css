@@ -246,11 +246,17 @@ footer{
 .card-img-top{
     height:335px;
 }
-.card-text{
-    font-family: 'oswald', sans-serif;
+.card-title{
+    text-align:center;
 }
+.card-text{
+    text-align:justify;  
+}
+
 .card-body{
     min-height: 200px;
+    font-family: 'oswald', sans-serif;
+    text-align: center;
 }
 
 
