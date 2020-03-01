@@ -76,9 +76,35 @@ The site was tested in several devices for validate the UX features inculding:
     *   Try to click "send us" button without any input, a required field will appear 
 Although I have difficulties with form-validation success message which requires Javascript (hopefully will be added next coming project)
 ## Deployment
-
+The project is hosted on Github.
+* AT first host a git repository on GitHub.
+* The project folder contains README.md,index.html,aboutJute.html,contact.html,products.html files.
+* The css folder contains style.cssfil and images.
+* Move to GitHub Pages section on GitHub repository settings page.
+* On the setting page change the source to 'master branch' or any other desired branch.
+* The appeared link would be the project home page (index.html).
 ## Credits
 #### Content
+The text of the website copied and edited from:
+* https://www.deyute.com/en/about-jute
+* https://www.ansys.com/blog/all-about-materials-bags-plastic-paper-jute
+* https://www.fibre2fashion.com/industry-article/7577/golden-fibre-still-glitters
+* https://www.wikipedia.org/  
+* Catalog of Jute-Village
 #### Media
+ Images for the website taken from:  
+* Google Image 
+* https://www.dhgate.com
+* http://www.xinhuanet.com/english
+* https://www.indiamart.com
+* https://www.orissapost.com
+* http://designerjute.co.uk
+* Contrado blog
 #### Acknowledgements
+Thank you to the following for inspiration, motivation and the direction I needed:
+* Shafiul Sufal (friend) for the logo
+* Seun Owonikoko @seun_mentor
+* Tutor Assistant-Code Institute
+* Code Institute
+* W3school
 

@@ -36,9 +36,6 @@ body{
     margin-bottom: 30px;
 }
 
-.menucontainer{
-    font-size:0;
-}*/
 
 /*------------------------------------------*/
 /*------------navigation bar---------------*/
@@ -70,6 +67,17 @@ article.container-fluid.image-container{
 .carousel-item img{
     height:480px;
 } 
+
+/*---------carousel icon inspired from Stackflow----------*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-color: rgba(49, 51, 48, 0.397);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(31, 30, 30);
+}
 
 /*---------------Home Page----------*/
 /*--------------Features--------------*/
