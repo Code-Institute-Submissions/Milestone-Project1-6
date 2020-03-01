@@ -51,37 +51,18 @@
                 <h3 class="contact-head text-center">If you have any question or queries! Write to us:</h3>
                     <div class="center-form">
                     <!---------W3 SChool form validation-->
-                        <form>
+                        <form action="/action_page.php" method="post">
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
                             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
                             <textarea name="text" id="text"  rows="5" class="form-control" placeholder="Write here" required></textarea>
                         
                          <div class="form-row text-center">
                             <div class="col">
-                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Send us</button>    
+                                    <button type="submit" class="btn btn-success">Send us</button>    
                             </div>
-                            </div>
-                            <!----------------modal------------>
-								<div class="modal" id="exampleModal" tabindex="-1" role="dialog">
-									<div class="modal-dialog" role="document">
-										<div class="modal-content">
-											<div class="modal-header">
-												<h5 class="modal-title">Modal title</h5>
-												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								          <span aria-hidden="true">&times;</span>
-								        </button>
-											</div>
-											<div class="modal-body">
-												<p>Modal body text goes here.</p>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-                            <!---------------modal--------------->
-                        </form>
+                            
+                         </div>
+                         </form>
                     </div>
             </div>
         </div>
