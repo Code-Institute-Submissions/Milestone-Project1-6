@@ -53,7 +53,28 @@ body{
     font-weight: 400;
     letter-spacing: 1px;
     text-decoration: none;
+    font-size:130%;
    
+}
+
+/*-----------collapsedbar appeares with full width of screen--------------*/
+* {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+/*-----------collapsed bar for phone's screen------------*/
+@media (max-width:700px){
+a.nav-link{
+    background-color:rgba(49, 51, 48, 0.7);
+
+    }
 }
 
 /*-------------------Home page---------------------------*/
