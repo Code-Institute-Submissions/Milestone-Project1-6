@@ -66,8 +66,9 @@ The site was tested in several devices for validate the UX features inculding:
 * Iphon6
 * Huawei P20
 * Galaxy S7
+* Sansung A5
 * To test the site:
-    * Visit the hosted verstion in  https://himaldew.github.io/Milestone-Project1/
+    * Visit the hosted verstion in   https://himaldew.github.io/Milestone-Project1/
     * Navigate through the pages named By ** HOME, ABOUT, PRODUCTS, CONTACT US **
 * In the "Product" page
     * Try to click on "Our Catalogue" a new page will open containing a pdf file of products
