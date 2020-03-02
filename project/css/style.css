@@ -74,7 +74,7 @@ article.container-fluid.image-container{
     width: 30px;
     outline: black;
     background-color: rgba(49, 51, 48, 0.397);
-    background-size: 100%, 100%;
+    background-size: 100%,100%;
     border-radius: 50%;
     border: 1px solid rgb(31, 30, 30);
 }
@@ -104,22 +104,17 @@ article.container-fluid.image-container{
 }
 .feature-text{
     text-align: justify;
+    margin-top:20px;
+    min-height:150px;
 }
 
-@media (min-width: 750px){
+@media only screen and (min-width:700px) and (max-width:992px){
     .feature-text{
-    min-height:240px;
+    min-height:250px;
     font-size:15px;
-
     }
     .feature-header{
         font-size:20px;
-    }
-}
-
-@media (min-width: 992px){
- .feature-text{
-    min-height:200px;
     }
 }
 
